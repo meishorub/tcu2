@@ -1,0 +1,14 @@
+.imagen {
+
+border-radius: 25px;
+border: 3px lightpink solid;
+
+}
+
+.efecto-agrandar {
+    transition: transform 0.3s ease; /* Duración de 0.3 segundos */
+}
+
+.efecto-agrandar:hover {
+    transform: scale(1.2); /* 1.2 = 120% del tamaño original */
+}
